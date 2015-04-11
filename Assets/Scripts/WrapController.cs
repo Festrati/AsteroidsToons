@@ -13,12 +13,12 @@ public class WrapController : MonoBehaviour {
 		var newPosition = transform.position;
 		
 		if (viewportPosition.x > 1 || viewportPosition.x < 0) {
-			print("TODO: draw!!!!! X ");
-			newPosition.y = -newPosition.y;
+			print("redraw X ");
+			newPosition.x = -newPosition.x;
 		}
 		
 		if (viewportPosition.y > 1 || viewportPosition.y < 0) {
-			print("TODO: Draw!!!!! Y ");
+			print("redraw Y ");
 			newPosition.y = -newPosition.y;
 		}
 		
